@@ -2,7 +2,10 @@ import './style.css'
 import heroImg from './assets/hero.png'
 import typescriptLogo from './assets/typescript.svg'
 import viteLogo from './assets/vite.svg'
-import { setupCounter } from './counter.ts'
+import { setupCounter } from './counter' // Corregido: sin .tsimport './topics/02-objeto.interfaz';
+import './topics/3.3-interfaz-alumno'; // Corregido: sin .ts
+import './topics/4-funciones';
+import './calculadora/calculadoraBasica';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="center">
@@ -19,8 +22,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 </section>
 
 <div class="ticks"></div>
-
-
 `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
