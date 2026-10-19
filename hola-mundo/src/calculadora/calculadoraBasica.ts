@@ -1,6 +1,6 @@
 /**
  * Suma dos numeros. El segundo parámetro es opcional.
- * Si no se proporciona, se toma 0 como valor neutro.
+ * Si no se pone b, se toma 0 como valor neutro.
 
  */
 function sumar(a: number, b?: number): number {
@@ -10,7 +10,7 @@ function sumar(a: number, b?: number): number {
 
 /**
  * Resta dos numeros. El segundo parámetro es opcional.
- * Si no se proporciona, se toma 0 para mantener el valor original.
+ * Si no se pone b, se toma 0 para mantener el valor original.
 
  */
 function restar(a: number, b?: number): number {
@@ -20,7 +20,7 @@ function restar(a: number, b?: number): number {
 
 /**
  * Multiplica dos numeros. El segundo parámetro es opcional.
- * Si no se proporciona, se toma 1 como elemento neutro de la multiplicación.
+ * Si no se pone b, se toma 1 como elemento neutro de la multiplicación.
 
  */
 function multiplicar(a: number, b?: number): number {
@@ -30,8 +30,8 @@ function multiplicar(a: number, b?: number): number {
 
 /**
  * Divide dos numeros. El segundo parámetro es opcional.
- * Si no se proporciona, se toma 1 como elemento neutro. Incluye control para evitar la división por cero.
- cero.
+ * Si no se pone b, se toma 1 como elemento neutro.
+ *  Incluye control para evitar la división por cero.
  */
 function dividir(a: number, b?: number): number {
     const operandoB = b ?? 1;
